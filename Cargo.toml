@@ -1,0 +1,24 @@
+# Cargo.toml
+
+[package]
+name = "GrandFantasia-ChatLogger"
+version = "1.0.0"
+edition = "2024"
+
+# Add this line to specify the build target is a Windows GUI application.
+[target.'cfg(windows)'.build]
+rustflags = ["-C", "link-args=/SUBSYSTEM:WINDOWS"]
+
+[dependencies]
+sysinfo = "0.30.13"
+winapi = { version = "0.3", features = ["memoryapi", "processthreadsapi", "winnt", "handleapi"] }
+aho-corasick = "1.1.2"
+eframe = "0.27.2"
+egui = "0.27.2"
+chrono = "0.4.35"
+lazy_static = "1.4.0"
+regex = "1.10.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rodio = "0.17"
+rfd = "0.15.4"

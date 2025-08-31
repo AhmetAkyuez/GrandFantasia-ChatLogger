@@ -1,0 +1,108 @@
+{
+  "selected_pid": null,
+  "scan_interval_ms": 500,
+  "timestamp_format": "OnlyTime",
+  "channel_colors": {
+    "Yell": [
+      0,
+      156,
+      255,
+      255
+    ],
+    "Trade": [
+      242,
+      233,
+      173,
+      255
+    ],
+    "Broadcast": [
+      255,
+      120,
+      55,
+      255
+    ],
+    "Announce": [
+      255,
+      255,
+      0,
+      255
+    ],
+    "Items": [
+      165,
+      220,
+      240,
+      255
+    ],
+    "Other": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "Say": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "Whisper": [
+      128,
+      0,
+      128,
+      255
+    ],
+    "System": [
+      221,
+      0,
+      0,
+      255
+    ],
+    "World": [
+      255,
+      174,
+      0,
+      255
+    ],
+    "Guild": [
+      0,
+      254,
+      0,
+      255
+    ],
+    "Combat": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "Party": [
+      35,
+      251,
+      238,
+      255
+    ]
+  },
+  "channel_audio": {
+    "Whisper": true,
+    "Guild": true
+  },
+  "channel_audio_file": {
+    "Whisper": "C:\\Violet Games\\Grand Fantasia Violet\\sound\\UI012.wav",
+    "Guild": "C:\\Violet Games\\Grand Fantasia Violet\\sound\\UI012.wav"
+  },
+  "subchannel_audio": {},
+  "subchannel_audio_file": {},
+  "hide_subchannel_messages": false,
+  "log_file_size_limit_mb": 5,
+  "channel_groups": [],
+  "show_debug_messages": false,
+  "show_icons": true,
+  "shorten_combat_numbers": true,
+  "enable_damage_analyzer": true,
+  "enable_exp_analyzer": true,
+  "font_size": 14.0,
+  "font_name": "monospace",
+  "hide_subchannel_from_parent_all": {
+    "System": false
+  }
+}
